@@ -1,0 +1,615 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 100%;
+    height: 200vh;
+    background-color: rgb(152, 197, 233);
+    display: flex;
+}
+
+.box {
+    background-color: rgb(51, 57, 83);
+    width: 100%;
+    height: 60px;
+    position: absolute;
+    box-shadow: 1px 1px 5px 1px black;
+}
+
+.text {
+    color: white;
+    position: absolute;
+    font-weight: 100;
+    top: 12px;
+    left: 29px;
+    font-size: 29px;
+}
+
+.home {
+    color: white;
+    text-decoration: none;
+    position: absolute;
+    font-family: sans-serif;
+    font-size: 20px;
+    right: 1px;
+    top: 15px;
+    transition: 0.5s;
+}
+
+.d111:hover .home {
+    scale: 1.1;
+}
+
+.d111 {
+    width: 110px;
+    height: 60px;
+    position: absolute;
+    left: 1023px;
+    top: -2px;
+    border-radius: 3px;
+}
+
+.d11 {
+    width: 1px;
+    height: 4px;
+    background: rgb(51, 57, 83);
+    border-radius: 5px;
+    position: absolute;
+    top: 40px;
+    left: 30px;
+    transition: 0.4s;
+}
+
+.d111:hover .d11 {
+    width: 80px;
+    background: white;
+}
+
+.d222 {
+    width: 110px;
+    height: 60px;
+    position: absolute;
+    left: 1150px;
+    top: -2px;
+    border-radius: 5px;
+    transition: 0.3s;
+}
+
+.d22 {
+    width: 1px;
+    height: 4px;
+    background-color: rgb(51, 57, 83);
+    position: absolute;
+    top: 39px;
+    border-radius: 5px;
+    left: 10px;
+    transition: 0.5s;
+}
+
+.d222:hover .d22 {
+    background-color: white;
+    width: 85px;
+}
+
+.img {
+    position: absolute;
+    right: 445px;
+    top: 17px;
+    width: 33px;
+    height: 19px;
+}
+
+.d333 {
+    width: 110px;
+    height: 60px;
+    position: absolute;
+    left: 1270px;
+    top: -2px;
+    border-radius: 3px;
+    transition: 0.3s;
+}
+
+.d333:hover .d33 {
+    background-color: white;
+    width: 106px;
+}
+
+.d33 {
+    width: 1px;
+    height: 5px;
+    position: absolute;
+    border-radius: 5px;
+    background: rgb(51, 57, 83);
+    top: 40px;
+    transition: 0.5s;
+}
+
+.about {
+    color: white;
+    text-decoration: none;
+    position: absolute;
+    font-family: sans-serif;
+    font-size: 20px;
+    right: 20px;
+    top: 15px;
+    transition: 0.5s
+}
+
+.d222:hover .about {
+    scale: 1.1;
+}
+
+.img2 {
+    position: absolute;
+    right: 335px;
+    top: 17px;
+    width: 29px;
+    height: 17px;
+}
+
+.projec {
+    color: white;
+    text-decoration: none;
+    position: absolute;
+    font-family: sans-serif;
+    font-size: 20px;
+    right: 7px;
+    top: 15px;
+    transition: 0.5s;
+}
+
+.d333:hover .projec {
+    scale: 1.1;
+}
+
+.img3 {
+    position: absolute;
+    right: 225px;
+    top: 15px;
+    width: 25px;
+    height: 22px;
+}
+
+.d {
+    width: 65px;
+    top: 13px;
+    right: 40px;
+    height: 30px;
+    background-color: rgb(87, 64, 129);
+    position: absolute;
+    border-radius: 5px;
+    border: 1px solid blue;
+    transition: 0.5s;
+}
+
+.d:hover {
+    scale: 1.05;
+    border: 1px solid rgb(87, 64, 129);
+}
+
+.img4 {
+    width: 40px;
+    height: 20px;
+    position: absolute;
+    top: 4px;
+    left: 10px;
+}
+.text1 {
+    position: absolute;
+    font-family: sans-serif;
+    top: 140px;
+    left: 150px;
+    font-weight: 100;
+    font-size: 40px;
+    color: rgb(6, 40, 94);
+}
+
+.text2 {
+    position: absolute;
+    top: 220px;
+    left: 150px;
+    font-weight: 100;
+    color: rgb(6, 40, 94);
+    font-family: sans-serif;
+    font-size: 40px;
+}
+
+.text3 {
+    position: absolute;
+    top: 220px;
+    left: 330px;
+    font-weight: 800;
+    color: white;
+    font-size: 40px;
+}
+
+.salom {
+    position: absolute;
+    top: 220px;
+    left: 550px;
+}
+
+.text4 {
+    position: absolute;
+    top: 260px;
+    left: 150px;
+    font-weight: 100;
+    color: rgb(6, 40, 94);
+    font-family: sans-serif;
+    font-size: 40px;
+}
+
+.text5 {
+    position: absolute;
+    top: 260px;
+    left: 210px;
+    font-weight: 800;
+    color: white;
+    font-size: 40px;
+}
+
+.text6 {
+    position: absolute;
+    top: 330px;
+    left: 150px;
+    font-weight: 800;
+    color: white;
+    font-size: 40px;
+}
+
+.teg {
+    width: 190px;
+    height: 50px;
+    border: 1px solid blue;
+    background: rgb(87, 64, 129);
+    position: absolute;
+    top: 500px;
+    border-radius: 5px;
+    transition: 1s;
+    left: 150px;
+}
+
+.text7 {
+    font-size: 15px;
+    color: white;
+    font-family: sans-serif;
+    font-weight: 200;
+    position: absolute;
+    top: 14px;
+    left: 10px;
+    text-decoration: none;
+}
+
+.teg:hover {
+    border: 1px solid white;
+    scale: 1.1;
+}
+
+.img5 {
+    position: absolute;
+    top: 160px;
+    right: 125px;
+    width: 500px;
+    height: 300px;
+}
+
+.d4 {
+    width: 500px;
+    height: 300px;
+    position: absolute;
+    border-radius: 10px;
+    top: 160px;
+    right: 125px;
+}
+
+.d5 {
+    width: 400px;
+    height: 205px;
+    position: absolute;
+    background-color: #423e3ecc;
+    border-radius: 5px;
+    left: 50px;
+    top: 45px;
+    transition-delay: 1s;
+    transition: 0.8s;
+    transition-timing-function: linear;
+    transform: scale(0);
+}
+
+.d4:hover .d5 {
+    transform: scale(1);
+    box-shadow: 30%;
+}
+.d6{
+    width: 340px;
+    position: absolute;
+    height: 155px;
+    border-radius: 5px;
+    top: 25px;
+    right: 30px;
+    border: 2px solid white;
+    transition: 0.5s;
+}
+.d6:hover{
+    scale: 1.1;
+}
+.text8{
+    font-family: sans-serif;
+    color: white;
+    position: absolute;
+    font-size: 19px;
+    top: 25px;
+    left: 100px;
+    font-weight: 100;
+}
+.img8{
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    bottom: 30px;
+    left: 150px;
+}
+
+.tex {
+    position: absolute;
+    top: 480px;
+    right: 240px;
+    font-weight: 100;
+    color: rgb(76, 49, 125);
+    font-family: sans-serif;
+}
+
+.tex1 {
+    position: absolute;
+    bottom: -150px;
+    left: 200px;
+    font-family: sans-serif;
+    font-weight: 100;
+    font-size: 40px;
+    color: rgb(76, 49, 125);
+}
+
+.tex2 {
+    position: absolute;
+    bottom: -150px;
+    left: 360px;
+    font-family: sans-serif;
+    font-weight: 100;
+    font-size: 40px;
+    color: white;
+}
+
+.tex3 {
+    position: absolute;
+    bottom: -150px;
+    left: 610px;
+    font-family: sans-serif;
+    font-weight: 100;
+    font-size: 40px;
+    color: rgb(76, 49, 125);
+}
+
+.tex4 {
+    position: absolute;
+    bottom: -400px;
+    left: 100px;
+    font-family: sans-serif;
+    font-weight: 100;
+    font-size: 19px;
+    line-height: 30px;
+    color: rgb(76, 49, 125);
+}
+
+.tex4 em {
+    color: white;
+    font-weight: 800;
+}
+
+.img6 {
+    position: absolute;
+    bottom: -400px;
+    right: 100px;
+    width: 300px;
+    height: 300px;
+}
+
+.bottex {
+    position: absolute;
+    bottom: -550px;
+    font-family: sans-serif;
+    font-weight: 100;
+    color: rgb(54, 35, 89);
+    font-size: 35px;
+    left: 600px;
+}
+
+.feel {
+    position: absolute;
+    bottom: -580px;
+    left: 620px;
+    font-weight: 100;
+    font-family: sans-serif;
+    font-size: 14px;
+    color: rgb(76, 49, 125);
+}
+
+.feel em {
+    color: white;
+}
+
+.gin {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: 2px solid white;
+    position: absolute;
+    bottom: -670px;
+    left: 580px;
+    background-color: rgb(242, 242, 242);
+    transition: 0.2s;
+}
+
+.gin:hover {
+    background-color: white;
+    scale: 1.1;
+    box-shadow: 1px 2px 10px 2px white;
+}
+
+.in {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: 2px solid white;
+    position: absolute;
+    bottom: -670px;
+    left: 690px;
+    background-color: rgb(242, 242, 242);
+    transition: 0.2s;
+}
+
+.in:hover {
+    background-color: white;
+    scale: 1.1;
+    box-shadow: 1px 2px 10px 2px white;
+}
+
+.tel {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: 2px solid white;
+    position: absolute;
+    bottom: -670px;
+    left: 800px;
+    background-color: rgb(242, 242, 242);
+    transition: 0.2s;
+}
+
+.tel:hover {
+    background-color: white;
+    scale: 1.1;
+    box-shadow: 1px 2px 10px 2px white;
+}
+
+.img7 {
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    top: 15px;
+    left: 15px;
+    transition: 0.2s;
+}
+
+.img7:hover {
+    scale: 1.7;
+}
+
+.in2 {
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    top: 11px;
+    left: 15px;
+    transition: 0.2s;
+    text-decoration: none;
+    color: rgb(8, 116, 212);
+    font-weight: 800;
+    font-family: sans-serif;
+}
+
+.in2:hover {
+    scale: 1.7;
+}
+
+.tel1 {
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    top: 15px;
+    left: 15px;
+    transition: 0.2s;
+    text-decoration: none;
+    color: rgb(8, 116, 212);
+    font-weight: 800;
+    font-family: sans-serif;
+}
+
+.tel1:hover {
+    scale: 1.7;
+}
+
+.nav {
+    width: 100%;
+    background-color: rgb(33, 32, 56);
+    height: 60px;
+    position: absolute;
+    bottom: -800px;
+}
+
+.texx {
+    position: absolute;
+    color: white;
+    font-weight: 100;
+    font-family: sans-serif;
+    font-size: 16px;
+    top: 20px;
+    left: 130px;
+}
+
+.texx2 {
+    position: absolute;
+    color: white;
+    font-weight: 100;
+    font-family: sans-serif;
+    font-size: 16px;
+    top: 20px;
+    left: 690px;
+}
+
+.a1 {
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    right: 140px;
+    top: 15px;
+    transition: 0.3s;
+}
+
+.in1 {
+    position: absolute;
+    text-decoration: none;
+    color: white;
+    font-family: sans-serif;
+    font-size: 25px;
+    font-weight: 700;
+    right: 230px;
+    top: 16px;
+    transition: 0.3s;
+}
+
+.github {
+    position: absolute;
+    right: 325px;
+    top: 18px;
+    width: 25px;
+    height: 25px;
+    transition: 0.3s;
+}
+
+.github:hover {
+    position: absolute;
+    top: 10px;
+}
+
+.in1:hover {
+    position: absolute;
+    top: 10px;
+}
+
+.a1:hover {
+    position: absolute;
+    top: 10px;
+}
